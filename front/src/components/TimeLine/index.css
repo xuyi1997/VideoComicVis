@@ -1,0 +1,94 @@
+.m-timeline-wrap {
+    position: relative;
+    margin: 20px auto;
+    height: 3px;
+    background: #8dc6f5;
+  }
+  
+  .m-time-dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .m-dot-box {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+  }
+  
+  .concept-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .concept-timeline-button {
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    background-color: rgb(237, 237, 237);
+    border: 1px #bbbbbb solid;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 2px 0;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .concept-timeline-button.important {
+    background-color: #FF9E4A;
+  }
+  
+  .concept-timeline-button.challenging {
+    background-color: #AD8BC9;
+  }
+  
+  .m-dot {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 2px solid #8dc6f5;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .u-dot {
+    width: 6px;
+    height: 6px;
+    background: #8dc6f5;
+    border-radius: 50%;
+    margin: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .m-dot-box:hover .m-dot {
+    border-color: #1890FF;
+  }
+  
+  .m-dot-box:hover .u-dot {
+    background: #1890FF;
+  }
+  
+  .active .m-dot {
+    transform: translateY(-50%) scale(1.5);
+    border-color: #1890FF;
+  }
+  
+  .active .u-dot {
+    background: #1890FF;
+  }
+  .concept-menu {
+    position: absolute;
+  }

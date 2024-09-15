@@ -1,0 +1,7 @@
+{
+    "font_path": "/Users/xuyi/Project/vis/ComicVisSystem/resources/Virgil.ttf",
+    "svg_template": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 {width} {height}\" width=\"{width}\" height=\"{height}\"><defs><style>@font-face {{font-family: \"Virgil\";src: url(\"https://virgil.excalidraw.com/Virgil.woff2\");}}@font-face {{font-family: \"Cascadia\";src: url(\"https://excalidraw.com/Cascadia.woff2\");}}</style></defs>{element}</svg>",
+    "transform_template": "<g transform=\"translate({x}, {y})\">{element}</g>",
+    "svg_text_template": "<text x=\"{x}\" y=\"{y}\" font-family=\"Virgil, Segoe UI Emoji\" font-size=\"{font_size}px\" fill=\"#000000\" text-anchor=\"start\" style=\"white-space: pre;\" direction=\"ltr\">{text}</text>",
+    "svg_path_template": "<path d=\"{stroke_path}\" fill=\"none\" stroke=\"black\"/>"
+  }

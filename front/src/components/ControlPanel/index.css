@@ -1,0 +1,68 @@
+
+.control-panel {
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  border: solid rgb(200,200,200) 2px;
+  border-radius: 10px;
+}
+.panel-head {
+    float: left;
+    width: 100%;
+    align-content: center;
+    border-radius: 15px;
+    color: rgb(122, 133, 147);
+    font-size: 24px;
+    line-height: 150%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.item-label {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.el-dropdown-link {
+  cursor: pointer;
+  color: #409EFF;
+  display: inline-block;
+  min-width: 100px;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.custom-slider {
+  width: 100px;
+  padding-right: 25px;
+}
+
+/* 自定义滑块样式 */
+.custom-slider >>> .el-slider__runway {
+  background-color: #E8DEF8;
+}
+
+.custom-slider >>> .el-slider__bar {
+  background-color: #65558F;
+}
+
+.custom-slider >>> .el-slider__button {
+  border: 2px solid #65558F;
+  background-color: #65558F;
+}
+
+.el-slider__button-wrapper {
+  z-index:0 !important;
+}

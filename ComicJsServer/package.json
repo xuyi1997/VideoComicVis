@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jsdom": "^25.0.0",
+    "roughjs": "^4.6.6"
+  },
+  "name": "roughjstest",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

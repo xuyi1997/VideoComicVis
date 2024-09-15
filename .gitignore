@@ -1,0 +1,6 @@
+.vscode
+/back/cache/
+/front/node_modules/
+/front/dist/
+/front/public/
+/ComicJsServer/node_modules

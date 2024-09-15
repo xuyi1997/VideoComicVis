@@ -1,0 +1,12 @@
+{
+    "system_prompt": "Please play the role of a professional data analyst specializing in constructing knowledge map from text.",
+    "document_prompt": "Now I will provide you with a very long document in several batches, which you should use as your background context. You do not need to output anything.",
+    "document_finish_prompt": "Now I finish the complete document",
+    "extract_concept_prompt": "Next, I will give you a chunk. Focus on the given chunk, the task is to extract knowledge concepts from the provided sentences in the chunk.  The knowledge concepts should be an single entity without descriptor. Output result concepts in list format: CL = [A, B, C]",
+    "extract_triple_prompt": "Focus on concepts in CL, explore relationships between concepts based on the sentences. Generate knowledge triples among these concepts in the format (head, relation, tail). Output result triples in json format where the key is index and the value is the triple.",
+    "check_proposition_triple_prompt": "check these triples in the json, make sure each triple represent a complete proposition with a straightforward relation description.",
+    "check_missing_triple_prompt": "Check the json and focus on these heads and tails in the json, do you miss any inclusion relationships between them? Focus on the provided sentences in the chunk and the relationship between sentences. Please only output the refined JSON for this chunk.",
+    "check_merging_within_chunk_prompt": "Check this json, are there heads and tails in triples have different descriptions but refer to the same real-world entity? Please only output the refined JSON for this chunk.",
+    "check_merging_across_chunk_prompt": "Refer across chunks, and check this json again, are there heads and tails in triples have different descriptions with head and tails in triples extracted from other chunks but actually refer to the same real-world entity? Please only output the refined JSON for this chunk",
+    "output_json_prompt": "Output the result json as a json object, where the key is index and the value is the triple. Please only output the refined JSON for this chunk"
+}

@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home-page {
+  width: 100%; 
+  height: 100vh;
+  position: relative; 
+  background: white; 
+  overflow: hidden;
+}
+.left-panel {
+  height: 100%;
+  width: 30%;
+  padding: 10px;
+}
+.top-left-panel {
+  box-sizing: border-box;
+  /* width: 100%; */
+  width: 30%;
+  left:0%;
+  height: 40%;
+  padding: 10px;
+}
+.bottom-left-panel {
+  box-sizing: border-box;
+  width: 30%;
+  left:0%;
+  top:40%;
+  height: 50%;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+}
+.right-panel {
+  height: 100vh;
+  box-sizing: border-box;
+  /* margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 70%;
+  left:30%;
+  top: 0%;
+  position: absolute; /* 修改为relative */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.right-panel-video {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.comic-tip-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}

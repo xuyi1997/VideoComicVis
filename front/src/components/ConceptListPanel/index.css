@@ -1,0 +1,59 @@
+.conceptListPanel{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    /* z-index: 100; */
+    /* left: 0;
+      top: 0; */
+  }
+.conceptButton {
+  position: relative; 
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+  border: 1px #bbbbbb solid;
+  border-radius: 5px;
+  padding: 2px 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.close-icon {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:  rgb(200, 200, 200);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 6px;
+  font-weight: bold;
+}
+.close-icon:hover {
+  background-color: red; /* Change background color on hover */
+}
+.conceptButton:hover {
+  background-color: #d3d3d3; /* Change background color on hover */
+}
+
+.el-button--primary {
+  color: rgb(100, 100, 100);
+  background-color: rgb(237, 237, 237);
+  border-color: rgb(237, 237, 237);
+}
+.el-button {
+  padding: 9px 20px;
+}
+
+.highlight {
+  background-color: #FF9E4A; /* 或者任何你想要的高亮颜色 */
+}
